@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>CKEditor + elFinder</title>
+		<script type="text/javascript" src="ckeditor.js"></script>
+	</head>
+	<body>
+
+		<!-- Element where elFinder will be created (REQUIRED) -->
+		<textarea id="editor1"></textarea>
+
+	</body>
+	<script type="text/javascript">
+	CKEDITOR.replace( 'editor1', {
+    	filebrowserBrowseUrl : 'manager_elfinder/index2.html', // eg. 'includes/elFinder/elfinder.html'
+    	uiColor : '#9AB8F3'
+	});
+	</script>
+</html>
